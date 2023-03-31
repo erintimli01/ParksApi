@@ -14,15 +14,38 @@
 
 ## Description
 
-_Demonstrating knowledge of building API's, this API is a lookup for National State Parks and will list the park name and the city and state it's in. _
+_Demonstrating knowledge of building API's, this API is a lookup for National State Parks and will list the park name and the city and state it's in._
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+### To Open Project
+* _Clone this repo_
+* _Open the terminal and navigate to this project's production directory "ParksApi"_
+* _Within this directory, create two new files: `appsettings.json` and `appsettings.Development.json`_
+* _Within `appsettings.json`, insert the following code, first removing the [ ] brackets, and making sure to update `uid` and `pdw` with your personal MySQL credentials:_
+```
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=localhost;Port=3306;database=parks_api;uid=[YOUR-USERNAME-HERE];pwd=[YOUR-PASSWORD-HERE];"
+  }
+}
+```
+* _Within `appsettings.Development,json`, insert the following code:_
+```
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Trace",
+      "Microsoft.AspNetCore": "Information",
+      "Microsoft.Hosting.Lifetime": "Information"
+    }
+  }
+}
+```
+* _Install dependencies within the "ParksApi" directory with `dotnet restore`_
+* _Build and run the program in developement mode with `dotnet run`_
+
 
 _{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
 
