@@ -2,6 +2,8 @@
 ### _An API for National Park Lookups_
 #### By _**Erin Timlin**_
 
+<br>
+
 
 ## Technologies Used
 
@@ -12,9 +14,13 @@
 * _LINQ_
 * _Swagger_
 
+<br>
+
 ## Description
 
 _Demonstrating knowledge of building API's, this API is a lookup for National State Parks and will list the park name and the city and state it's in._
+
+<br>
 
 ## Setup/Installation Requirements
 
@@ -46,9 +52,12 @@ _Demonstrating knowledge of building API's, this API is a lookup for National St
 * _Install dependencies within the "ParksApi" directory with `dotnet restore`_
 * _Build and run the program in development mode with `dotnet run`_
 
-## API Documentation
+<br>
 
+## API Documentation
 Please feel free to test this API via [Postman](https://www.postman.com/)! 
+
+<br>
 
 ### Available End Points
 
@@ -59,17 +68,34 @@ Please feel free to test this API via [Postman](https://www.postman.com/)!
  PUT http://localhost:5297/api/v1/parks/{id}
  DELETE http://localhost:5297/api/v1/parks/{id}
 ```
-_Note: The '{id}' value in the URL is a variable and should be replaced with the id number of the park you want to GET, PUT, or DELETE_
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
+<em><small>Note: The value `{id}` found in the URL is not a fixed or constant value, but rather a variable that needs to be substituted with the specific id number of the park you intend to perform a GET, PUT, or DELETE operation on.</small></em>
+
+<br>
+
+
+#### Optional Queries
+_It is possible to include query strings in GET requests to `http://localhost:5297/api/v1/parks/` in order to filter or search for specific parks._ 
+
+<br>
+
+| Parameter   | Type        |  Required    | Description |
+| ----------- | ----------- | -----------  | ----------- |
+| name     | String      | not required | Returns park name with a matching state value |
+| state       | String      | not required | Returns states with a matching park name value |
+
+<!-- need to add example queries -->
+<!-- need to include additional reqs for post and put -->
+
+
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _No Known Bugs_
+
 
 ## License
 
 _{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
 
-Copyright (c) _date_ _author name(s)_
+Copyright (c) _2023_ _Erin Timlin_
