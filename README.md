@@ -44,8 +44,22 @@ _Demonstrating knowledge of building API's, this API is a lookup for National St
 }
 ```
 * _Install dependencies within the "ParksApi" directory with `dotnet restore`_
-* _Build and run the program in developement mode with `dotnet run`_
+* _Build and run the program in development mode with `dotnet run`_
 
+## API Documentation
+
+Please feel free to test this API via [Postman](https://www.postman.com/)! 
+
+### Available End Points
+
+```
+ GET http://localhost:5297/api/v1/parks
+ GET http://localhost:5297/api/v1/parks/{id}
+ POST http://localhost:5297/api/v1/parks
+ PUT http://localhost:5297/api/v1/parks/{id}
+ DELETE http://localhost:5297/api/v1/parks/{id}
+```
+_Note: The '{id}' value in the URL is a variable and should be replaced with the id number of the park you want to GET, PUT, or DELETE_
 
 _{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
 
