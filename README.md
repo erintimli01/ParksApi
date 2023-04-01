@@ -5,7 +5,7 @@
 <br>
 
 
-## Technologies Used
+## **Technologies Used**
 
 * _C#_
 * _.Net 6_
@@ -16,13 +16,13 @@
 
 <br>
 
-## Description
+## **Description**
 
 _Demonstrating knowledge of building API's, this API is a lookup for National State Parks and will list the park name and the city and state it's in._
 
 <br>
 
-## Setup/Installation Requirements
+## **Setup/Installation Requirements**
 
 ### To Open Project
 * _Clone this repo_
@@ -54,12 +54,13 @@ _Demonstrating knowledge of building API's, this API is a lookup for National St
 
 <br>
 
-## API Documentation
+## **API Documentation**
+
 Please feel free to test this API via [Postman](https://www.postman.com/)! 
 
 <br>
 
-### Available End Points
+### **Available End Points**
 
 ```
  GET http://localhost:5297/api/v1parks
@@ -74,7 +75,7 @@ Please feel free to test this API via [Postman](https://www.postman.com/)!
 <br>
 
 
-#### Optional Queries
+#### **Optional Queries**
 _It is possible to include query strings in GET requests to `http://localhost:5297/api/v1parks/` in order to filter or search for specific parks._ 
 
 <br>
@@ -86,7 +87,7 @@ _It is possible to include query strings in GET requests to `http://localhost:52
 
 <br>
 
-### Example Queries
+### **Example Queries**
 
 The following will return all parks:
 ```
@@ -114,18 +115,59 @@ The following will return all parks in Tusayan, Arizona, returning multiple quer
 GET http://localhost:5297/api/v1parks?state=arizona&city=Tusayan
 ```
 
-<!-- need to add example queries -->
-<!-- need to include additional reqs for post and put -->
+<br>
 
+#### **Additional Requirements for POST Request**
+<em><small>Note: To make a POST request, it is necessary to include a JSON formatted body that contains all required fields.</small></em> 
 
+<br>
 
-## Known Bugs
+Example:
+
+```
+POST http://localhost:5297/api/v1parks
+```
+```
+{
+    "name": "Joshua Tree National Park",
+    "state": "California",
+    "city": "Palm Springs"
+}
+```
+<br>
+
+#### **Additional Requirements for PUT Request**
+<em><small>Note: To make a PUT request, it is necessary to include a JSON formatted body that contains all required fields including the parks `parkId` field.</small></em> 
+
+<br>
+
+Example: 
+
+```
+PUT http://localhost:5297/api/v1parks
+```
+
+```
+{
+    "parkId: "8",
+    "name": "Joshua Tree National Park",
+    "state": "California",
+    "city": "Palm Springs"
+}
+```
+
+<br>
+
+## **Known Bugs**
 
 * _No Known Bugs_
 
+_Please reach out with any questions or concerns!_
 
-## License
+<br>
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+## **License**
+[MIT](License.txt) License
 
-Copyright (c) _2023_ _Erin Timlin_
+
+Copyright (c) _March 2023_ _Erin Timlin_
