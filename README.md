@@ -4,6 +4,23 @@
 
 <br>
 
+<div style="border: 3px solid white; padding: 5px; background-color: dark grey; width: 70%">
+  <h2 style="color: teal; font-weight: bold; font-size: 14px;">
+<details>
+<summary>Table of Contents</summary>
+<h2>
+<ol style="list-style-type: none; margin: 0; padding: 8px;">
+  <li><a style="font-size: 12px;" href="#technologies-used">Technologies Used</a></li>
+  <li><a style="font-size: 12px;" href="#description">Description</a></li>
+  <li><a style="font-size: 12px;" href="#setupinstallation-requirements">Setup/Installation Requirements</a></li>
+  <li><a style="font-size: 12px;" href="#api-documentation">API Documentation</a></li>
+  <li><a style="font-size: 12px;" href="#known-bugs">Known Bugs</a></li>
+  <li><a style="font-size: 12px;" href="#license">License</a></li>
+</ol>
+</details>
+</div>
+
+<br>
 
 ## **Technologies Used**
 
