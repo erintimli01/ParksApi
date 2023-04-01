@@ -62,11 +62,11 @@ Please feel free to test this API via [Postman](https://www.postman.com/)!
 ### Available End Points
 
 ```
- GET http://localhost:5297/api/v1/parks
- GET http://localhost:5297/api/v1/parks/{id}
- POST http://localhost:5297/api/v1/parks
- PUT http://localhost:5297/api/v1/parks/{id}
- DELETE http://localhost:5297/api/v1/parks/{id}
+ GET http://localhost:5297/api/v1parks
+ GET http://localhost:5297/api/v1parks/{id}
+ POST http://localhost:5297/api/v1parks
+ PUT http://localhost:5297/api/v1parks/{id}
+ DELETE http://localhost:5297/api/v1parks/{id}
 ```
 
 <em><small>Note: The value `{id}` found in the URL is not a fixed or constant value, but rather a variable that needs to be substituted with the specific id number of the park you intend to perform a GET, PUT, or DELETE operation on.</small></em>
@@ -75,7 +75,7 @@ Please feel free to test this API via [Postman](https://www.postman.com/)!
 
 
 #### Optional Queries
-_It is possible to include query strings in GET requests to `http://localhost:5297/api/v1/parks/` in order to filter or search for specific parks._ 
+_It is possible to include query strings in GET requests to `http://localhost:5297/api/v1parks/` in order to filter or search for specific parks._ 
 
 <br>
 
@@ -83,6 +83,36 @@ _It is possible to include query strings in GET requests to `http://localhost:52
 | ----------- | ----------- | -----------  | ----------- |
 | name     | String      | not required | Returns park name with a matching state value |
 | state       | String      | not required | Returns states with a matching park name value |
+
+<br>
+
+### Example Queries
+
+The following will return all parks:
+```
+GET http://localhost:5297/api/v1parks
+```
+
+The following will return all parks with a state value of "Arizona", indicated by the state id:
+```
+GET http://localhost:5297/api/v1parks?state=arizona
+```
+
+The following will return all parks with a city value of "Tusayan", indicated by the city id:
+```
+GET http://localhost:5297/api/v1parks?city=tusayan
+```
+
+The following will return all parks with the name "Grand Canyon National Park", indicated by the name id:
+```
+GET http://localhost:5297/api/v1parks?name=Grand Canyon National Park
+```
+
+The following will return all parks in Tusayan, Arizona, returning multiple query strings by separating them with an &:
+
+```
+GET http://localhost:5297/api/v1parks?state=arizona&city=Tusayan
+```
 
 <!-- need to add example queries -->
 <!-- need to include additional reqs for post and put -->
