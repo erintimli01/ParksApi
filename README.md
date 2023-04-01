@@ -4,7 +4,7 @@
 
 <br>
 
-<div style="border: 3px solid white; padding: 5px; background-color: dark grey; width: 70%">
+<div style="border: 3px solid white; padding: 5px; background-color: dark grey; width: 50%">
   <h2 style="color: teal; font-weight: bold; font-size: 14px;">
 <details>
 <summary>Table of Contents</summary>
