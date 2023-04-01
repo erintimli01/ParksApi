@@ -18,12 +18,16 @@ namespace ParksApi.Controllers
 
     // GET api/parks
     [HttpGet]
-    public async Task<ActionResult<IEnumerable<Park>>> Get(string state, string name)
+    public async Task<ActionResult<IEnumerable<Park>>> Get(string state, string city, string name)
     {
       IQueryable<Park> query = _db.Parks.AsQueryable();
       if (state != null)
       {
         query = query.Where(entry => entry.State == state);
+      }
+      if (city != null)
+      {
+        query = query.Where(entry => entry.City == city);
       }
       if (name != null)
       {
