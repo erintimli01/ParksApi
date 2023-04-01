@@ -1,0 +1,84 @@
+/* Set default font family and size */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Style headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: Georgia, serif;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Style link and visited link colors */
+a:link, a:visited {
+  color: teal;
+}
+
+/* Style table of contents box */
+.toc-box {
+  border: 3px solid white;
+  padding: 5px;
+  background-color: dark grey;
+  width: 50%;
+}
+
+/* Style table of contents */
+.toc {
+  list-style-type: none;
+  margin: 0;
+  padding: 8px;
+}
+
+/* Style table of contents links */
+.toc li a {
+  font-size: 12px;
+  color: white;
+}
+
+/* .details-summary {
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.table-of-contents {
+  border: 3px solid white;
+  padding: 5px;
+  background-color: dark grey;
+  width: 50%;
+}
+
+.table-of-contents ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 8px;
+}
+
+.table-of-contents li a {
+  font-size: 12px;
+} */
+
+/* #table-of-contents { */
+  /* border: 3px solid white;
+  padding: 5px;
+  background-color: dark grey;
+  width: 50%;
+}
+
+#table-of-contents h2 {
+  color: teal;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#table-of-contents ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 8px;
+}
+
+#table-of-contents ol li a {
+  font-size: 12px;
+} */
