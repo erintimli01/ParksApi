@@ -26,7 +26,6 @@
 
 <br>
 
-
 ## **Technologies Used**
 
 * _C#_
@@ -182,7 +181,7 @@ PUT http://localhost:5297/api/v1parks
 
 ## **Known Bugs**
 
-* _No Known Bugs_
+* _ _
 
 _Please reach out with any questions or concerns!_
 
