@@ -1,6 +1,10 @@
-# _National Parks API_
-### _An API for National Park Lookups_
-#### By _**Erin Timlin**_
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+# National Parks API
+### An API for National Park Lookups
+#### By Erin Timlin
 
 <br>
 
@@ -21,6 +25,7 @@
 </div>
 
 <br>
+
 
 ## **Technologies Used**
 
