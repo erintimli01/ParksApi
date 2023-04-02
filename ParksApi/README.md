@@ -1,7 +1,3 @@
-<head>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-</head>
-
 # National Parks API
 ### An API for National Park Lookups
 #### By Erin Timlin
