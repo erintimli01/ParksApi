@@ -29,7 +29,7 @@
 
 <br>
 
-<a href="#table-of-contents">Back to Table of Contents</a>
+<a href="#table-of-contents"><small>Back to Table of Contents</small></a>
 
 <br>
 
@@ -39,7 +39,7 @@ _Demonstrating knowledge of building API's, this API is a lookup for National St
 
 <br>
 
-<a href="#table-of-contents">Back to Table of Contents</a>
+<a href="#table-of-contents"><small>Back to Table of Contents</small></a>
 
 <br>
 
@@ -75,7 +75,7 @@ _Demonstrating knowledge of building API's, this API is a lookup for National St
 
 <br>
 
-<a href="#table-of-contents">Back to Table of Contents</a>
+<a href="#table-of-contents"><small>Back to Table of Contents</small></a>
 
 <br>
 
@@ -191,7 +191,7 @@ _Please reach out with any questions or concerns!_
 
 <br>
 
-<a href="#table-of-contents">Back to Table of Contents</a>
+<a href="#table-of-contents"><small>Back to Table of Contents</small></a>
 
 <br>
 
