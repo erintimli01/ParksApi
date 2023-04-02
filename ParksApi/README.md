@@ -4,7 +4,17 @@
 
 <br>
 
-<div style="border: 3px solid white; padding: 5px; background-color: dark grey; width: 50%">
+<details>
+<summary>Table of Contents</summary>
+<li><a href="#technologies-used">Technologies Used </a>
+<li><a href="#description">Description</a>
+<li><a href="#setupinstallation-requirements">Setup/Installation Requirements</a>
+<li><a href="#api-documentation">API Documentation</a>
+<li><a href="#known-bugs">Known Bugs</a>
+<li><a href="#license">License</a>
+</details>
+
+<!-- <div style="border: 3px solid white; padding: 5px; background-color: dark grey; width: 50%">
   <h2 style="color: teal; font-weight: bold; font-size: 14px;">
 <details>
 <summary>Table of Contents</summary>
@@ -18,7 +28,7 @@
   <li><a style="font-size: 12px;" href="#license">License</a></li>
 </ol>
 </details>
-</div>
+</div> -->
 
 <br>
 
@@ -177,7 +187,7 @@ PUT http://localhost:5297/api/v1parks
 
 ## **Known Bugs**
 
-* _ _
+* _Styling for README will not show on GitHub_
 
 _Please reach out with any questions or concerns!_
 
