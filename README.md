@@ -29,7 +29,7 @@
 
 ## **Description**
 
-_Demonstrating knowledge of building API's, this API is a lookup for National State Parks and will list the park name and the city and state it's in._
+_Demonstrating knowledge of building API's, this API is a lookup for National State Parks and will list the park name and the city and state it's in. Versioning is also set up for future updates._
 
 <br>
 
