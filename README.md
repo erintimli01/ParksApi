@@ -14,22 +14,6 @@
 <li><a href="#license">License</a>
 </details>
 
-<!-- <div style="border: 3px solid white; padding: 5px; background-color: dark grey; width: 50%">
-  <h2 style="color: teal; font-weight: bold; font-size: 14px;">
-<details>
-<summary>Table of Contents</summary>
-<h2>
-<ol style="list-style-type: none; margin: 0; padding: 8px;">
-  <li><a style="font-size: 12px;" href="#technologies-used">Technologies Used</a></li>
-  <li><a style="font-size: 12px;" href="#description">Description</a></li>
-  <li><a style="font-size: 12px;" href="#setupinstallation-requirements">Setup/Installation Requirements</a></li>
-  <li><a style="font-size: 12px;" href="#api-documentation">API Documentation</a></li>
-  <li><a style="font-size: 12px;" href="#known-bugs">Known Bugs</a></li>
-  <li><a style="font-size: 12px;" href="#license">License</a></li>
-</ol>
-</details>
-</div> -->
-
 <br>
 
 ## **Technologies Used**
@@ -187,7 +171,7 @@ PUT http://localhost:5297/api/v1parks
 
 ## **Known Bugs**
 
-* _Styling for README will not show on GitHub_
+* _No known bugs_
 
 _Please reach out with any questions or concerns!_
 
