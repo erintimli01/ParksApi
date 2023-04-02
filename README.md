@@ -4,6 +4,7 @@
 
 <br>
 
+<div id="table-of-contents">
 <details>
 <summary>Table of Contents</summary>
 <li><a href="#technologies-used">Technologies Used </a>
@@ -13,6 +14,7 @@
 <li><a href="#known-bugs">Known Bugs</a>
 <li><a href="#license">License</a>
 </details>
+</div>
 
 <br>
 
@@ -27,7 +29,7 @@
 
 <br>
 
-<a href="#top">Back to Top</a>
+<a href="#table-of-contents">Back to Table of Contents</a>
 
 <br>
 
@@ -37,7 +39,7 @@ _Demonstrating knowledge of building API's, this API is a lookup for National St
 
 <br>
 
-<a href="#top">Back to Top</a>
+<a href="#table-of-contents">Back to Table of Contents</a>
 
 <br>
 
@@ -73,7 +75,7 @@ _Demonstrating knowledge of building API's, this API is a lookup for National St
 
 <br>
 
-<a href="#top">Back to Top</a>
+<a href="#table-of-contents">Back to Table of Contents</a>
 
 <br>
 
@@ -189,7 +191,7 @@ _Please reach out with any questions or concerns!_
 
 <br>
 
-<a href="#top">Back to Top</a>
+<a href="#table-of-contents">Back to Table of Contents</a>
 
 <br>
 
