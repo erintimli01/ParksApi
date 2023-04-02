@@ -27,9 +27,17 @@
 
 <br>
 
+<a href="#top">Back to Top</a>
+
+<br>
+
 ## **Description**
 
 _Demonstrating knowledge of building API's, this API is a lookup for National State Parks and will list the park name and the city and state it's in. Versioning is also set up for future updates._
+
+<br>
+
+<a href="#top">Back to Top</a>
 
 <br>
 
@@ -62,6 +70,10 @@ _Demonstrating knowledge of building API's, this API is a lookup for National St
 ```
 * _Install dependencies within the "ParksApi" directory with `dotnet restore`_
 * _Build and run the program in development mode with `dotnet run`_
+
+<br>
+
+<a href="#top">Back to Top</a>
 
 <br>
 
@@ -174,6 +186,10 @@ PUT http://localhost:5297/api/v1parks
 * _No known bugs_
 
 _Please reach out with any questions or concerns!_
+
+<br>
+
+<a href="#top">Back to Top</a>
 
 <br>
 
